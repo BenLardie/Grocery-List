@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 
 
-const Form = () => {
+const Form = ({ onSubmit }) => {
 
 const itemRef = useRef();
 
